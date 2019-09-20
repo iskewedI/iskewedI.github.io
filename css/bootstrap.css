@@ -50,8 +50,10 @@
           box-sizing: border-box;
 }
 html,body {
+  margin-left:10px;
+   margin-right:10px;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 html {
   font-family: sans-serif;
