@@ -4939,6 +4939,7 @@ input[type="button"].btn-block {
 {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+  color: rgb(61, 61, 61);
 }
 .card.mb-3{
   float:left;
