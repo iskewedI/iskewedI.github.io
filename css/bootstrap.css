@@ -568,6 +568,7 @@ pre code {
   margin-left: auto;
 }
 
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -591,7 +592,6 @@ pre code {
     max-width: 1140px;
   }
 }
-
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -10285,6 +10285,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .navbar {
     display: none;
+    
   }
   .badge {
     border: 1px solid #000;
