@@ -49,6 +49,23 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.card.border-light.mb-3.collapsible
+{
+  color: #444;
+  cursor: pointer;
+  border: none;
+  width:auto;
+  text-align: left;
+  outline: none;
+}
+.card-body.collapsible.card-header.collapsible
+{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
 html,body {
   margin-left:10px;
    margin-right:10px;
