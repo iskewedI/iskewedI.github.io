@@ -58,6 +58,75 @@
   text-align: left;
   outline: none;
 }
+/* IMAGEN 3D */
+
+.efectoimagen
+{
+  max-width: 100%;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.efectoimagen_tarjeta:hover figure {
+  transform: perspective(600px) rotateY(180deg);
+  box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+  border-top-left-radius: 5px;
+}
+.efectoimagen_tarjeta:hover figure img{
+  filter: blur(3px);
+}
+
+figure 
+{
+  margin:0;
+  position:relative;
+  transition:all ease .5s;
+  transform-style: preserve-3d;
+  transform: perspective(600px) rotateY(0deg);
+}
+figure .frontal,
+figure .trasera {
+  width:100%;
+  height:100%;
+  border-top-right-radius: 5px;
+  transition: all ease .5s;
+}
+
+figure .frontal {
+  display:block;
+  /* backface-visibility: hidden; */
+}
+figure .trasera {
+  position:absolute;
+  top:0;
+  padding:20px;
+  color:#fff;
+  transform:perspective(600px) rotateY(180deg);
+  backface-visibility: hidden;
+  overflow: auto;
+
+  background: rgba(218,233,240,0.48);
+  background: -moz-linear-gradient(top, rgba(218,233,240,0.48) 0%, rgba(199,199,52,0.49) 1%, rgba(61,54,20,0.86) 67%, rgba(61,54,20,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(218,233,240,0.48)), color-stop(1%, rgba(199,199,52,0.49)), color-stop(67%, rgba(61,54,20,0.86)), color-stop(100%, rgba(61,54,20,1)));
+  background: -webkit-linear-gradient(top, rgba(218,233,240,0.48) 0%, rgba(199,199,52,0.49) 1%, rgba(61,54,20,0.86) 67%, rgba(61,54,20,1) 100%);
+  background: -o-linear-gradient(top, rgba(218,233,240,0.48) 0%, rgba(199,199,52,0.49) 1%, rgba(61,54,20,0.86) 67%, rgba(61,54,20,1) 100%);
+  background: -ms-linear-gradient(top, rgba(218,233,240,0.48) 0%, rgba(199,199,52,0.49) 1%, rgba(61,54,20,0.86) 67%, rgba(61,54,20,1) 100%);
+  background: linear-gradient(to bottom, rgba(218,233,240,0.48) 0%, rgba(199,199,52,0.49) 1%, rgba(61,54,20,0.86) 67%, rgba(61,54,20,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dae9f0', endColorstr='#3d3614', GradientType=0 ); 
+  
+}
+
+figure .trasera hr{
+  height:2px;
+  background:#fff;
+  border:none;
+  opacity: .3;
+}
+figure .trasera p{
+  font-size: 110%;
+}
+
+
 .card-body.collapsible.card-header.collapsible
 {
     padding: 0 18px;
