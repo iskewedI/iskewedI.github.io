@@ -2640,7 +2640,24 @@ textarea.form-control {
     margin-bottom: 0;
   }
 }
+.contact {
+  color:rgb(155, 155, 155);
+  font-size:175%;
 
+
+  border-radius: 25%;
+}
+.nav-link.contact 
+{
+ display:grid;
+ float:right;
+ justify-items:center;
+ margin-right:90px;
+ width:25%;
+ background-color:rgb(231, 228, 228);
+ padding-bottom: 10px;
+
+}
 .btn {
   display: inline-block;
   font-weight: 600;
@@ -2695,7 +2712,12 @@ fieldset:disabled a.btn {
   background-color: #1a1a1a;
   border-color: #1a1a1a;
 }
-
+.btn-primary.btn-lg{
+  width:25%;
+}
+.btn-primary.btn-sm{
+  width:150px;
+}
 .btn-primary:hover {
   color: #fff;
   background-color: #070707;
