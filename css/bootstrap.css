@@ -49,15 +49,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.card.border-light.mb-3.collapsible
-{
-  color: #444;
-  cursor: pointer;
-  border: none;
-  width:auto;
-  text-align: left;
-  outline: none;
-}
+
+
 /* IMAGEN 3D */
 
 .efectoimagen
@@ -648,9 +641,9 @@ pre code {
 .container {
   width: 100%;
   padding-right: 5px;
-  padding-left: 80px;
+  padding-left: 20px;
   padding-top: 15px;
-  margin-right: auto;
+  margin-right: 20px;
   margin-left: auto;
 }
 
@@ -5053,6 +5046,10 @@ input[type="button"].btn-block {
 }
 .card.mb-3{
   float:left;
+  width: 50%;
+  max-height:100%;
+  min-width:10px;
+
 }
 
 @media (min-width: 576px) {
