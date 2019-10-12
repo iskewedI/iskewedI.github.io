@@ -50,7 +50,14 @@
           box-sizing: border-box;
 }
 
-
+/* Particles */
+#particles-js {
+  height:100vh;
+  width:100%;
+  /* margin-top: 35%; */
+  position: fixed;
+  z-index: -1;
+}
 /* IMAGEN 3D */
 
 .efectoimagen
