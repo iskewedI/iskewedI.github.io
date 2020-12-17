@@ -1,0 +1,10 @@
+.projectImage {
+  height: 450px;
+  width: 100%;
+  border-style: dashed;
+  border-color: azure;
+  display: block;
+}
+.linkToProject {
+  background-color: rgb(220, 243, 239) !important;
+}
