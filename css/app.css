@@ -1,9 +1,12 @@
 .projectImage {
-  width: 100%;
   border-style: dashed;
   border-color: azure;
   display: block;
 }
 .linkToProject {
   background-color: rgb(220, 243, 239) !important;
+}
+
+.projectCard {
+  width: 100%;
 }
